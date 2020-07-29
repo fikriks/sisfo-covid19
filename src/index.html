@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <app-bar></app-bar>
+    </header>
+    <main class="container">
+        <div class="header">
+            <div class="row pt-5">
+                <div class="col-12 col-sm-1 col-9 col-lg-5 mt-5">
+                    <hr class="d-none">
+                    <h1 class="mb-4 font-weight-bold">Novel Corona Virus</h1>
+                    <hr>
+                    <p>Coronavirus adalah kumpulan virus yang bisa menginfeksi sistem pernapasan. Pada banyak kasus,
+                        virus
+                        ini hanya menyebabkan infeksi pernapasan ringan, seperti flu. Namun, virus ini juga bisa
+                        menyebabkan
+                        infeksi pernapasan berat, seperti infeksi paru-paru (pneumonia), Middle-East Respiratory
+                        Syndrome
+                        (MERS), dan Severe Acute Respiratory Syndrome (SARS).</p>
+                    <br>
+                </div>
+                <div class="row">
+                    <div class="d-none d-sm-block offset-1">
+                        <br>
+                        <img src="./src/assets/img/banner.png" class="img-fluid" style="width:550px;height:300px">
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="indonesia">
+            <h2 class="font-weight-bold mt-5">Statistik COVID-19 Nasional</h2>
+            <hr>
+            <div id="list"></div>
+        </div>
+        <div class="provinsi">
+            <h2 class="font-weight-bold mt-5">Statistik COVID-19 Berdasarkan Provinsi</h2>
+            <hr>
+            <div class="table-responsive mt-5 mb-5">
+                <table id="table" class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th scope="col">Provinsi</th>
+                            <th scope="col">Positive</th>
+                            <th scope="col">Sembuh</th>
+                            <th scope="col">Meninggal</th>
+                        </tr>
+                    </thead>
+                    <tbody id="provinsi">
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="chart">
+            <h2 class="font-weight-bold mt-5">Statistik COVID-19 Berdasarkan Provinsi 5 Terbesar</h2>
+            <hr>
+            <canvas id="myChart" width="400" height="150"></canvas>
+        </div>
+    </main>
+    <footer class="mt-5">
+        <div class="bg-primary text-center p-3 text-white">
+            <p>&copy 2020</p>
+        </div>
+    </footer>
+</body>
+
+</html>
